@@ -1,0 +1,50 @@
+.Card {
+    max-width: 500px;
+}
+
+.card-header {
+    border-radius : 12px;
+    background-color:hsl(10, 79%, 65%);
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.header-right {
+    position: relative;
+}
+
+.span-top-right, .span-bottom-right {
+    border-radius:50%;
+    height: 2em;
+    width: 2em;
+    display: block;
+}
+.span-top-right {
+    position: absolute;
+    z-index: 2;
+    border: 1px solid white;
+    left: -50%;
+}
+
+.span-bottom-right {
+    background-color: hsl(25, 47%, 15%);
+}
+
+.week {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.day {
+    display: flex;
+    flex-direction: column;
+}
