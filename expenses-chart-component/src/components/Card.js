@@ -31,11 +31,16 @@ function Card() {
       }
     ]
     const expenses = [];
-    for (var i=0; i < data.length; i++) {
+    const multiplier = 3;
+    const currentDate = new Date();
+    const currentDay = currentDate.toLocaleDateString("en-US", {weekday:"short"}).toLowerCase();
+    for (var i=0; i < data.length; i++) 
+    {
         let dataObject = data[i];
+        let color = currentDay === dataObject.day ? "hsl(186, 34%, 60%)" : 'hsl(10, 79%, 65%)' ; 
         let day = 
         <div className='day' key={i} value = {i}>
-          <div className='amount' style={{'height':dataObject.amount+'px', 'backgroundColor':'hsl(10, 79%, 65%)'}}></div>
+          <div className='amount' style={{'height':(dataObject.amount*multiplier)+'px', 'backgroundColor': color}}></div>
           <span>{dataObject.day}</span>
         </div>;
         expenses.push(day)
@@ -58,14 +63,16 @@ function Card() {
           {expenses}
         </section>
       </section>
-        
-
-
-        Total this month
-        $478.33
-
-        +2.4%
-  from last month
+      <section className='card-footer'>
+        <div className='footer-left'>
+          <span className='footer-top-left'>Total this month</span>
+          <span className='footer-bottom-left'>$478.33</span>
+        </div>
+        <div className='footer-right'>
+          <span className='footer-top-right'>+2.4%</span>
+          <span className='footer-bottom-right'>from last month</span>
+        </div>
+      </section>
     </div>
   );
 }

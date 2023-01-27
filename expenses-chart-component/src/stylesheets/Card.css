@@ -1,3 +1,12 @@
+@font-face {
+    font-family: DMSans-Regular;
+    src: url(./fonts/DMSans-Regular.ttf);
+}
+@font-face {
+    font-family: DMSans-Bold;
+    src: url(./fonts/DMSans-Bold.ttf);
+}
+
 .Card {
     max-width: 500px;
 }
@@ -5,16 +14,27 @@
 .card-header {
     border-radius : 12px;
     background-color:hsl(10, 79%, 65%);
-    padding: 1em;
+    padding: 1.5em;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 35px;
   }
 
 .header-left {
     display: flex;
     flex-direction: column;
     color: white;
+}
+.span-top-left {
+    font-family: DMSans-Regular;
+    margin-bottom: 5px;
+}
+.span-bottom-left {
+    font-family: DMSans-Bold;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
 
 .header-right {
@@ -30,14 +50,19 @@
 .span-top-right {
     position: absolute;
     z-index: 2;
-    border: 1px solid white;
+    border: 2px solid white;
     left: -50%;
 }
 
 .span-bottom-right {
+    padding: 2px;
     background-color: hsl(25, 47%, 15%);
 }
-
+h1 {
+    font-family: DMSans-Regular;
+    margin-bottom: 50px;
+    padding-left: 20px;
+}
 .week {
     display: flex;
     justify-content: space-around;
@@ -47,4 +72,49 @@
 .day {
     display: flex;
     flex-direction: column;
+}
+
+.amount {
+    border-radius: 2px;
+    width: 35px;
+}
+
+.day:not(:last-child) {
+    margin-right: 15px;
+}
+
+.day span {
+    text-align: center;
+    font-size: 12px;
+    margin-top:5px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.card-footer div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-right {
+    text-align: right;
+    align-self: flex-end;
+}
+
+.footer-bottom-left {
+    font-size: 30px;
+    font-family: DMSans-Bold;
+    margin-top: 5px;
+}
+
+.footer-top-right {
+    font-family: DMSans-Bold;
+}
+
+.footer-top-left, .footer-bottom-right, .day span {
+    color: rgba(90, 90, 90, 0.657);
 }
