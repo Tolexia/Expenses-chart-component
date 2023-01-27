@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-gh-pages/static/css/main.a224d715.css",
+    "main.js": "/react-gh-pages/static/js/main.f7f06689.js",
+    "static/js/787.4b790c40.chunk.js": "/react-gh-pages/static/js/787.4b790c40.chunk.js",
+    "static/media/DMSans-Regular.ttf": "/react-gh-pages/static/media/DMSans-Regular.4ee96395e07a04577aab.ttf",
+    "static/media/DMSans-Bold.ttf": "/react-gh-pages/static/media/DMSans-Bold.c423ce2dc1d85bc50799.ttf",
+    "index.html": "/react-gh-pages/index.html",
+    "main.a224d715.css.map": "/react-gh-pages/static/css/main.a224d715.css.map",
+    "main.f7f06689.js.map": "/react-gh-pages/static/js/main.f7f06689.js.map",
+    "787.4b790c40.chunk.js.map": "/react-gh-pages/static/js/787.4b790c40.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a224d715.css",
+    "static/js/main.f7f06689.js"
+  ]
+}
