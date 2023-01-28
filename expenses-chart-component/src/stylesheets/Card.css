@@ -58,27 +58,59 @@
     padding: 2px;
     background-color: hsl(25, 47%, 15%);
 }
+
+.expenses-detail {
+    background:  hsl(33, 100%, 98%);
+    padding: 1em 2em 2em 2em;
+    border-radius: 12px;
+}
+
 h1 {
     font-family: DMSans-Regular;
     margin-bottom: 50px;
-    padding-left: 20px;
 }
 .week {
     display: flex;
     justify-content: space-around;
     align-items: flex-end;
+    border-bottom: 1px solid rgb(224 224 224 / 32%);
+    padding-bottom: 1em;
 }
 
 .day {
     display: flex;
     flex-direction: column;
+    position: relative;
+    align-items: center;
 }
 
 .amount {
-    border-radius: 2px;
+    border-radius: 4px;
     width: 35px;
+    cursor:pointer;
+    transition: .4s all;
 }
 
+
+.amount:hover {
+    opacity: 0.6;
+}
+
+.day span.amountValue {
+    padding: 6px 8px ;
+    background-color: hsl(25, 47%, 15%);
+    border-radius: 2px;
+    margin: auto;
+    color: white;
+    font-family: DMSans-Bold;
+    font-weight: 400;
+    position: absolute;
+    bottom: 100%;
+    width: max-content;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+    font-size: 13px;
+}
 .day:not(:last-child) {
     margin-right: 15px;
 }
@@ -92,7 +124,7 @@ h1 {
 .card-footer {
     display: flex;
     justify-content: space-between;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .card-footer div {
