@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.0beab923.css",
-    "main.js": "/react-gh-pages/static/js/main.b13c6406.js",
-    "static/js/787.4b790c40.chunk.js": "/react-gh-pages/static/js/787.4b790c40.chunk.js",
-    "static/media/DMSans-Regular.ttf": "/react-gh-pages/static/media/DMSans-Regular.4ee96395e07a04577aab.ttf",
-    "static/media/DMSans-Bold.ttf": "/react-gh-pages/static/media/DMSans-Bold.c423ce2dc1d85bc50799.ttf",
-    "index.html": "/react-gh-pages/index.html",
-    "main.0beab923.css.map": "/react-gh-pages/static/css/main.0beab923.css.map",
-    "main.b13c6406.js.map": "/react-gh-pages/static/js/main.b13c6406.js.map",
-    "787.4b790c40.chunk.js.map": "/react-gh-pages/static/js/787.4b790c40.chunk.js.map"
+    "main.css": "/Expenses-chart-component/static/css/main.90432777.css",
+    "main.js": "/Expenses-chart-component/static/js/main.91489b46.js",
+    "static/js/787.4b790c40.chunk.js": "/Expenses-chart-component/static/js/787.4b790c40.chunk.js",
+    "static/media/DMSans-Regular.ttf": "/Expenses-chart-component/static/media/DMSans-Regular.4ee96395e07a04577aab.ttf",
+    "static/media/DMSans-Bold.ttf": "/Expenses-chart-component/static/media/DMSans-Bold.c423ce2dc1d85bc50799.ttf",
+    "index.html": "/Expenses-chart-component/index.html",
+    "main.90432777.css.map": "/Expenses-chart-component/static/css/main.90432777.css.map",
+    "main.91489b46.js.map": "/Expenses-chart-component/static/js/main.91489b46.js.map",
+    "787.4b790c40.chunk.js.map": "/Expenses-chart-component/static/js/787.4b790c40.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0beab923.css",
-    "static/js/main.b13c6406.js"
+    "static/css/main.90432777.css",
+    "static/js/main.91489b46.js"
   ]
 }
